@@ -22,10 +22,4 @@ export const tokenProvider = async () => {
     const token = client.generateUserToken({ user_id: user.id, validity_issued: issued, validity_exp: exp });
 
     return token;
-
-
-
-
-
-
 }
